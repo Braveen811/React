@@ -1,0 +1,87 @@
+/* ADD THIS TO THE VERY TOP OF YOUR CSS FILE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/* =========================================
+   1. DARK MODE VARIABLES (Default Theme)
+   ========================================= */
+:root, 
+[data-theme='dark'] {
+  /* Backgrounds & Core Colors */
+  --bg-color: #050505; 
+  --bg-gradient: radial-gradient(circle at 70% 30%, #4A080A 0%, var(--bg-color) 60%);
+  --nav-bg: rgba(255, 255, 255, 0.03);
+  --accent-color: #B21318; 
+  
+  /* Text */
+  --text-color: #ffffff;
+  --text-main: #ffffff; 
+  --text-muted: #a0a0a0; 
+  
+  /* Buttons */
+  --cv-btn-bg: #B21318;
+  --cv-btn-text: #ffffff;
+  
+  /* Glass Cards */
+  --card-bg: rgba(20, 20, 20, 0.6); 
+  --card-border: rgba(255, 255, 255, 0.1); 
+  --glow-shadow: 0px 0px 40px rgba(178, 19, 24, 0.3); 
+  --stack-color: var(--accent-color);
+}
+
+/* =========================================
+   2. LIGHT MODE VARIABLES
+   ========================================= */
+/* Using multiple class names here to make sure it catches your React toggle button no matter what it's named! */
+body.light-theme, 
+body.light-mode, 
+[data-theme='light'] {
+  
+  /* Backgrounds & Core Colors */
+  --bg-color: #f4f4f5; 
+  --bg-gradient: radial-gradient(circle at 70% 30%, #ffe0e0 0%, var(--bg-color) 60%);
+  --nav-bg: rgba(0, 0, 0, 0.05); 
+  --accent-color: #B21318; 
+  
+  /* Text */
+  --text-color: #050505; 
+  --text-main: #111111;
+  --text-muted: #4a4a52; 
+  
+  /* Buttons */
+  --cv-btn-bg: #B21318;
+  --cv-btn-text: #ffffff;
+  
+  /* Glass Cards */
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --card-border: rgba(178, 19, 24, 0.2); 
+  --glow-shadow: 0px 15px 30px rgba(178, 19, 24, 0.15); 
+  --stack-color: #900a0e; 
+}
+
+/* =========================================
+   3. BASE STYLES
+   ========================================= */
+body {
+  background: var(--bg-gradient);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.5s ease;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #cf2222; 
+  color: #fff;
+}
