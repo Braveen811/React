@@ -67,24 +67,21 @@ my-portfolio/
 
 ```
 
----
 
 ## 📄 Where to Put Your CV File
 
 Your download buttons in the navigation header reference your CV asset via:
 
 JavaScript
+```bash
 <a href="src/assets/CV.pdf" className="cv-btn" download>
   Download CV
 </a>
-
+```
 Best Practice Tip for Production: To ensure your CV downloads properly without 404 errors when deployed on Vercel, either import it directly or place CV.pdf inside your public/ folder so it serves globally at /CV.pdf
 
-```
 
 
-
----
 
 ## ⚙️ Getting Started Locally
 
