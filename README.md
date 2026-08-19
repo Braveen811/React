@@ -127,6 +127,3 @@ npm run dev
 
 © 2026 All Rights Reserved.
 
-```
-
-```
