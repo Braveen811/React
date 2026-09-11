@@ -1,7 +1,3 @@
-Here is the ultimate, comprehensive, production-ready **`README.md`** file for your project. It consolidates everything—your project overview, tech stack, directory structure (showing exactly where your CV and assets go), features, and quick-start instructions—into one gorgeous layout.
-
-You can copy this entire block and paste it directly into your `README.md` file:
-
 ```markdown
 # ⚡ Cyberpunk React Portfolio
 
