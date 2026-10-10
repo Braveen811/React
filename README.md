@@ -92,7 +92,7 @@ git clone [https://github.com/Braveen811/React.git](https://github.com/Braveen81
 
 2. **Navigate to the project directory:**
 ```bash
-cd React
+cd React/Portfolio
 
 ```
 
